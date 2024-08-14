@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class StringMethods {
     public static void main(String[] args) {
-        // String métodos:
-
         String s = "  hello  ";
 
         System.out.println(s.length()); // 7

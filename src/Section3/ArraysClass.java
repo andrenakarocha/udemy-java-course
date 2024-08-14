@@ -29,7 +29,7 @@ public class ArraysClass {
                 {1, 2, 3},
                 {4, 5, 6}
         };
-        // Para achar o valor 2 por exemplo (Primeiro array, Segundo elemento}
+        // Para achar o valor 2, por exemplo (Primeiro array, Segundo elemento}
         System.out.println(matriz[0][2]);
 
         // Printar um array em formato de string:

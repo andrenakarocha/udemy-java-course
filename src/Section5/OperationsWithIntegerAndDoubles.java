@@ -23,7 +23,7 @@ public class OperationsWithIntegerAndDoubles {
         double d = 3.1;
         double d2 = 1.21;
 
-        // O número que você sempre receberá pelo double, é o número mais próximo representado com 14 casas após o .
+        // O número que você sempre receberá pelo double, é o número mais próximo representado com 14 casas após o "."
         System.out.println(d - d2); // 1.8900000000000001
 
         // Usamos novamente o BigDecimal:

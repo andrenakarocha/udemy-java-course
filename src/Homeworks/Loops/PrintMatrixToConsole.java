@@ -1,4 +1,4 @@
-package Homeworks;
+package Homeworks.Loops;
 
 public class PrintMatrixToConsole {
 

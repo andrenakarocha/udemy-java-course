@@ -6,7 +6,7 @@ public class While {
 
         while (i < 5) {
             System.out.println("Contador = " + i);
-            i ++
+            i ++;
         }
 
         // Loop infinito:

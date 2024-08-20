@@ -32,6 +32,8 @@ public class ArraysClass {
         // Para achar o valor 2, por exemplo (Primeiro array, Segundo elemento}
         System.out.println(matriz[0][2]);
 
+        System.out.println(matriz.length);
+
         // Printar um array em formato de string:
         int[] arr5 = {2, 5, 7, 8};
         System.out.println(Arrays.toString(arr5));

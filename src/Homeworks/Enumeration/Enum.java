@@ -1,0 +1,36 @@
+package Homeworks.Enumeration;
+
+import java.util.Scanner;
+
+public class Enum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("Please, enter message type to check it priority: ");
+            String userInput = sc.next();
+
+            if (isValidMessageType(userInput)) {
+                System.out.println("Type priority = " + MessageType.valueOf(userInput).getPriority());
+                break;
+            } else {
+                System.out.println("Please, enter valid "
+                        + "message type. Only 'A', 'B', 'C' or 'D' are allowed");
+                continue;
+            }
+
+        }
+    }
+
+    private static boolean isValidMessageType(String userInput) {
+        String[] validMessages = {"A", "B", "C", "D"};
+
+        for (String current : validMessages) {
+            if (current.equals(userInput)){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+}

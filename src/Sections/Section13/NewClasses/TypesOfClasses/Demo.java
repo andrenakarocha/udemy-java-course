@@ -1,6 +1,7 @@
-package Sections.Section13.NewClasses;
+package Sections.Section13.NewClasses.TypesOfClasses;
 
 // Aqui importo as nested classes
+import Sections.Section13.NewClasses.*;
 import Sections.Section13.NewClasses.Cart.Tax;
 import Sections.Section13.NewClasses.Cart.Discount;
 
@@ -10,7 +11,7 @@ public class Demo {
         User user = new User();
 
 //		// === init static nested class
-        Tax tax = new Cart.Tax("someTaxType", 0);
+        Tax tax = new Tax("someTaxType", 0);
 //
 //		// === init inner class
         // Aqui eu inicio ambos os objetos, pois não se pode criar um Discount sem o Cart.

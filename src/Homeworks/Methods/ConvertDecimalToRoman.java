@@ -38,14 +38,7 @@ public class ConvertDecimalToRoman {
                         break mainLoop;
                     } else {
                         System.out.println("Please, enter positive integer from 1 to 100.");
-                        continue;
-                    }
-
-                }
-
-            }
-
-            System.out.println("Please, enter 'R2D' or 'D2R.");
+                        continue; } } } System.out.println("Please, enter 'R2D' or 'D2R.");
         }
     }
 
@@ -68,7 +61,6 @@ public class ConvertDecimalToRoman {
     public static int roman2Decimal(String romanNumber) {
         int convertedNumber = 0;
         int i = 0;
-
 
         while (i < romanNumber.length()) {
             // Verify if there is double symbols ("IV")

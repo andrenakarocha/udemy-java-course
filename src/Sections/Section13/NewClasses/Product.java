@@ -2,17 +2,17 @@ package Sections.Section13.NewClasses;
 
 import java.math.BigDecimal;
 
-public class ProductPOJO {
+public class Product {
 
     // POJO class
     // uma POJO class é uma classe simples, apenas com suas propriedades, construtor e getters e setters.
     private String name;
     private BigDecimal price;
 
-    public ProductPOJO() {
+    public Product() {
     }
 
-    public ProductPOJO(String name, BigDecimal price) {
+    public Product(String name, BigDecimal price) {
         this.name = name;
         this.price = price;
     }

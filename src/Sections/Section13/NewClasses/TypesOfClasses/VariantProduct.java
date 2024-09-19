@@ -1,4 +1,4 @@
-package Sections.Section13.NewClasses;
+package Sections.Section13.NewClasses.TypesOfClasses;
 
 public class VariantProduct extends ProductAbstract {
 

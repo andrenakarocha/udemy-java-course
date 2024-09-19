@@ -1,4 +1,6 @@
-package Sections.Section13.NewClasses;
+package Sections.Section13.NewClasses.TypesOfClasses;
+
+import Sections.Section13.NewClasses.Product;
 
 import java.util.Arrays;
 

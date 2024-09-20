@@ -9,7 +9,7 @@ public class Demo {
 		System.out.println("Product name: " + product.getName());
 		System.out.println("Remaining amount in stock: " + product.calculateRemainingAmount());
 
-        // Porém, ao tentar usar um método do phone, o java não permite que eu use
+        // Porém, ao tentar usar a função do phone, o java não permite que eu use
 //		product.ring();
 
         // Agora inicilizando normal, ele funciona
